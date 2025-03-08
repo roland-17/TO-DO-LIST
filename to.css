@@ -1,0 +1,13 @@
+#texte{
+    height: 30PX;
+   width: 450PX;
+   border: 1PX solid blue;
+   border-radius: 6PX;
+}
+
+#creer{
+    height: 35PX;
+    background-color: blue;
+    border: 1PX solid blue;
+    border-radius: 6PX;
+}
