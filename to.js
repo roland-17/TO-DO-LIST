@@ -6,7 +6,7 @@ creer.onclick=()=>{
     rep.style. height="100PX";
     rep.style.width="100%";
     // rep.style.marginLeft="28VW"
-    rep.style.border="1PX solid blue";
+    rep.style.boxShadow="0PX 100PX 300PX 10PX gray"
     rep.style.display="flex";
     rep.style.justifyContent="space-around"
     rep.style.gap="30PX";
