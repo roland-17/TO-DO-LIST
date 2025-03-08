@@ -4,8 +4,8 @@ creer.onclick=()=>{
     let rep=document.createElement("div");
     rep.id="rol"
     rep.style. height="100PX";
-    rep.style.width="40%";
-    rep.style.marginLeft="28VW"
+    rep.style.width="100%";
+    // rep.style.marginLeft="28VW"
     rep.style.border="1PX solid blue";
     rep.style.display="flex";
     rep.style.justifyContent="space-around"
@@ -13,7 +13,7 @@ creer.onclick=()=>{
     rep.style.marginTop="50PX";
     rep.style.alignItems="center";
     rep.style.borderRadius="10PX"
-   
+    
     let rep1=document.createElement("div")
     
     rep1.style.width="55%";
@@ -23,7 +23,7 @@ creer.onclick=()=>{
     rep1.style.alignItems="center";
     rep1.style.justifyContent="space-around"
     rep1.style.border="1PX solid blue";
-
+    rep1.style.paddingLeft="100PX"
     let rep2=document.createElement("button")
 
     rep2.style.width="15%";
@@ -71,3 +71,6 @@ creer.onclick=()=>{
     rep1.innerHTML=texte.value
     texte.value = "";
 }
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
