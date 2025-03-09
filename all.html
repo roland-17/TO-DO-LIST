@@ -2,34 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONNEXION</title>
-    <link rel="stylesheet" href="./all.css">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>to-do-list</title>
+    <link rel="stylesheet" href="./to.css">
 </head>
 <body>
-    <form id="formulaire">
+    <h1 style="text-align: center;">TO DO LIST</h1>
+    <div class="test" style="width: 100%; display: flex; justify-content: center; gap: 30PX; margin-top: 50PX; align-items: center;">
 
-        <div id="choix">
-            <div class="enf ">
-                <button style="height: 50PX; width: 120px; background-color:  rgb(30, 23, 58); color: white; border-radius: 10PX; border: 2PX solid  rgb(30, 23, 58);;" id="conn">CONNEXION</button>
-            </div>
-            <div class="con ">
-                <button style="height: 50PX; width: 120px; background-color:  rgb(30, 23, 58); color: white; border-radius: 10PX; border: 2PX solid  rgb(30, 23, 58);; color: white;  border-radius: 10PX; border: 2PX solid  rgb(30, 23, 58); border-radius: 10PX; border: 2PX solid white; " class="ins">INSCRIPTION</button>
-            </div>
-        </div>
+        <input type="text" id="texte" name="texte" placeholder="VEILLEZ INSERE UN MOT" required>
 
-        <div id="connexion">
-      
-            <div class="con1"></div>
-            <div class="con2"></div>
+        <label for="texte"><button id="creer">creer ma liste</button></label>
+        <button style="width: 30PX; height: 30PX; background-color: blue; border-radius: 20PX; border: 1PX solid blue; font-size: 1rem; color: white; display: flex; align-items: center; justify-content: center; display: none;" id="ok">&#9745</button>
+    </div>
 
-        </div>
-        <div id="inscription">
-            <div class="ins1"></div>
-            <div class="ins2"></div>
-        </div>
-    </form>
-    <script src="./all.js"></script>
+    <script src="./to.js"></script>
 </body>
 </html>
-
