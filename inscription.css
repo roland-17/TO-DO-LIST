@@ -23,19 +23,21 @@
     border-radius: 10PX;
     width: 50%;
     height: 100%;
-    animation: role 3.5s ease-in-out forwards; 
+    animation: role 3s ease-in-out forwards; 
     
 }
 
 #ins2{
     background-color: rgb(45, 33, 128);
     width: 50%;
-    animation: rol 3.5s ease-in-out forwards; 
+    animation: rol 3s ease-in-out forwards; 
     height: 100%;
 }
+
 @keyframes role{
     0%{
         transform: translateX(0PX);
+        opacity: 0;
     }
 
 
@@ -43,6 +45,7 @@
 
     100%{
         transform:  translateX(250PX);
+        opacity: 1;
     }
 
     }
@@ -50,6 +53,7 @@
     @keyframes rol{
         0%{
             transform: translateX(0PX);
+            opacity: 0;
         }
     
     
@@ -57,6 +61,7 @@
     
         100%{
             transform:  translateX(-250PX);
+            opacity: 1;
         }
     
         }
@@ -64,4 +69,19 @@
 
 .animation{
     animation: role 5S ease-in-out forwards;
+}
+
+@media screen and (max-width:500px) {
+    #inscription{
+        width: 100%;
+    }
+
+    #ins2{
+        display: none;
+    }
+
+    #ins1{
+        width: 100%;
+        animation: none;
+    }
 }

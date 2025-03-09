@@ -16,6 +16,8 @@
   border: 2PX solid rgb(45, 33, 128);
   border-radius: 10PX;
   position: absolute;
+  opacity: 1;
+  transition: opacity 2s;
 }
 
 #enf{
@@ -46,16 +48,7 @@
  
 }
 
-#inscription{
-    width: 500PX;
-    height: 280PX;
-    display: flex;
-    background-color:  rgb(15, 9, 58);
-    border: 2PX solid rgb(45, 33, 128);
-    border-radius: 10PX;
-    display: none;
-   
-}
+
 
 .ins1{
     background-color:  white;
@@ -87,8 +80,6 @@
     width: 50%;
     height: 100%;
     animation: rol 2s ease-in-out forwards; 
-   
-   
 }
 
 #connexion{
@@ -109,7 +100,6 @@
     border: 2PX solid rgb(45, 33, 128);
     background-color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 @keyframes role{
@@ -143,4 +133,10 @@
 
 .animation{
     animation: role 5S ease-in-out forwards;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
 }
