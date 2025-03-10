@@ -27,7 +27,7 @@ async function enregistrerUtilisateur(nom, prenom, password) {
     localStorage.setItem("sessionUser", JSON.stringify({ nom, prenom }));
 
     // alert(" Inscription réussie ! Redirection en cours...");
-    document.querySelector("#vrai").style.display="block"
+   
 
 
     setTimeout(() => {
