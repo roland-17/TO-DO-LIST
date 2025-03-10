@@ -51,3 +51,8 @@ document.getElementById("formulaire").addEventListener("submit", async function(
 });
 
 
+
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+  });
+

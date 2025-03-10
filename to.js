@@ -85,3 +85,9 @@ function deconnexion() {
 
 
 document.getElementById("deconnexion").addEventListener("click", deconnexion);
+
+
+
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
