@@ -7,18 +7,25 @@
     <link rel="stylesheet" href="./inscription.css">
 </head>
 <body>
+
+    <div style="width: 100%;display: flex;align-items: center; justify-content: end; position: relative; height: 100PX;">
+        <div  id="vrai" style="width: 300PX;height: 100%; background-color:  rgb(15, 9, 58);  color: white;display: flex;align-items: center; justify-content: center; display: none;">
+           <H2>inscription réussie</H2>
+        </div>
+    </div>
+
     <form  id="formulaire">
     
         
         <div id="inscription">
             <div id="ins1" class="ins1">
 
-              <div class="nom" style="flex-direction: column; display: flex; margin-top: 10PX; width: 100%; margin-left: 0PX; margin-left: 20PX;">
+              <div class="nom" style="flex-direction: column; display: flex; margin-top: -8PX; width: 100%; margin-left: 0PX; margin-left: 20PX;">
               <label for="nm" style=""><h3> noms</label>
               <input type="text" name="" id="noms" style="width: 80%; height: 20PX;;border-radius: 10PX;">
              </div>
 
-               <div class="prenoms" style="flex-direction: column; display: flex; margin-top: 5PX; width: 100%; margin-left: 0PX; margin-left: 20PX;">
+               <div class="prenom" style="flex-direction: column; display: flex; margin-top: 5PX; width: 100%; margin-left: 0PX; margin-left: 20PX;">
                 <label for="nom" style=""><H3>prenoms</label>
                 <input type="text" name="" id="prenoms" style="width: 80%; height: 20PX; margin-bottom: PX;border-radius: 10PX;">
              </div>
@@ -27,9 +34,11 @@
                 <div class="pass">
                     <div class="prenoms" style="flex-direction: column; display: flex; ; width: 100%; margin-left: 0PX; margin-left: 20PX;">
                         <label for="nom" style=""><H3>mots de passe</label>
-                        <input type="password" name="" id="nom" style="width: 80%; height: 20PX; margin-bottom: PX;border-radius: 10PX;">
+                        <input type="password" name="" id="mot_de_pass" style="width: 80%; height: 20PX; margin-bottom: PX;border-radius: 10PX;">
                      </div>
                 </div>
+
+                  <button type="button" id="but" style="margin-left: 70PX; height: 40PX; border-radius: 10PX;margin-bottom: 20PX;border: 2PX solid  rgb(15, 9, 58);background-color: white;color: black;">S'INSCRIRE</button>
 
 
             </div>
@@ -43,7 +52,7 @@
                     
                     <div id="enf" style="display: flex; align-items:center; justify-content:center; color:white;flex-direction: column;text-align:center">
                         <h3>SE CONNECTER</h3>
-                    <button type="button" id="btt1" ><a href="./connexion.html" style="text-decoration: none; color: black;">CONNEXION</a></button>
+                    <button type="submit" id="btt1" ><a href="./connexion.html" style="text-decoration: none; color: black;">CONNEXION</a></button>
                 </div></div>
 
             </div>
@@ -51,5 +60,7 @@
 
   
     </form>
+
+    <script src="./inscription.js"></script>
 </body>
 </html>

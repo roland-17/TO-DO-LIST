@@ -6,7 +6,7 @@ creer.onclick=()=>{
     rep.style. height="100PX";
     rep.style.width="100%";
     // rep.style.marginLeft="28VW"
-    rep.style.boxShadow="0PX 100PX 300PX 10PX gray"
+    rep.style.boxShadow="2PX 10PX 20PX 1PX gray;"
     rep.style.display="flex";
     rep.style.justifyContent="space-around"
     rep.style.gap="30PX";
@@ -74,3 +74,14 @@ creer.onclick=()=>{
 document.addEventListener('contextmenu', function(e) {
   e.preventDefault();
 });
+
+
+
+function deconnexion() {
+    localStorage.removeItem("sessionUser"); 
+    // alert("Déconnexion réussie !"); 
+    window.location.href = "connexion.html"; 
+}
+
+
+document.getElementById("deconnexion").addEventListener("click", deconnexion);

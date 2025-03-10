@@ -12,12 +12,11 @@
   width: 500PX;
   height: 280PX;
   display:flex;
-  background-color:  rgb(45, 33, 128);
-  border: 2PX solid rgb(45, 33, 128);
+  background-color:  rgb(15, 9, 58);
+  border: 2PX solid  rgb(15, 9, 58);
   border-radius: 10PX;
   position: absolute;
-  opacity: 1;
-  transition: opacity 2s;
+  animation: role 2S ease-in-out;
 }
 
 #enf{
@@ -30,7 +29,7 @@
 }
 
 #red{
-    background-color:rgb(45, 33, 128);
+    background-color: rgb(15, 9, 58);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +40,7 @@
     width: 100PX;
     height: 40PX;
     border-radius: 10PX;
-    border: 2PX solid rgb(45, 33, 128);
+    border: 2PX solid  rgb(15, 9, 58);
     background-color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: block;
@@ -86,8 +85,8 @@
     width: 500PX;
     height: 280PX;
     display: flex;
-    background-color:  rgb(45, 33, 128);
-    border: 2PX solid rgb(45, 33, 128);
+    background-color:  rgb(15, 9, 58);
+    border: 2PX solid rgb(15, 9, 58);
     border-radius: 10PX;
     position: absolute;
 
@@ -97,21 +96,21 @@
     width: 100PX;
     height: 40PX;
     border-radius: 10PX;
-    border: 2PX solid rgb(45, 33, 128);
+    border: 2PX solid  rgb(15, 9, 58);
     background-color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 @keyframes role{
     0%{
-        transform: translateX(0PX);
+        opacity: 0;
     }
 
 
     
 
     100%{
-        transform:  translateX(250PX);
+      opacity: 1;
     }
 
     }

@@ -1,6 +1,6 @@
 #formulaire{
     width: 100%;
-    height: 200PX;
+    height: 300PX;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +13,7 @@
     border-radius: 10PX;
     width: 50%;
     height: 100%;
-    animation: role 3s ease-in-out forwards; 
+    animation: role 2.5s ease-in-out forwards; 
     
 }
 
@@ -21,17 +21,19 @@
     width: 500PX;
     height: 280PX;
     display: flex;
-    background-color:  rgb(45, 33, 128);
-    border: 2PX solid rgb(45, 33, 128);
+    background-color:   rgb(15, 9, 58);
+    border: 2PX solid  rgb(15, 9, 58);
     border-radius: 10PX;
-    position: absolute;
+ 
+    box-shadow: 5PX 5PX 20PX 1PX gray;
+
 }
 
 .ct{
-    background-color:  rgb(45, 33, 128);
+    background-color:   rgb(15, 9, 58);
     width: 50%;
     height: 100%;
-    animation: rol 3s ease-in-out forwards; 
+    animation: rol 2.5s ease-in-out forwards; 
 }
 
 
@@ -55,11 +57,19 @@
     @keyframes rol{
         0%{
             transform: translateX(0PX);
-            opacity: 0;
+           
         }
     
     
-        
+      
+            
+        50%{
+         
+            width: 80%;
+            
+           
+        }
+      
     
         100%{
             transform:  translateX(-250PX);
@@ -86,4 +96,19 @@
         width: 100%;
         animation: none;
     }
+}
+
+
+input{
+    border: 1PX solid  rgb(15, 9, 58);;
+}
+
+
+#btt2{
+    width: 100PX;
+    height: 40PX;
+    border-radius: 10PX;
+    border: 2PX solid rgb(45, 33, 128);
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

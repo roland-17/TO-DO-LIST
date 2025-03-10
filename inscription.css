@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 200PX;
+    margin-top: 100PX;
    
 }
 
@@ -13,8 +13,11 @@
     height: 100%;
     display: flex;
     background-color:  rgb(15, 9, 58);
-    border: 2PX solid rgb(45, 33, 128);
+    border: 2PX solid  rgb(15, 9, 58);
     border-radius: 10PX;
+
+    box-shadow: 2PX 10PX 20PX 1PX gray;
+
    
 }
 
@@ -23,14 +26,14 @@
     border-radius: 10PX;
     width: 50%;
     height: 100%;
-    animation: role 3s ease-in-out forwards; 
+    animation: role 2.5s ease-in-out forwards; 
     
 }
 
 #ins2{
     background-color:  rgb(15, 9, 58);
     width: 50%;
-    animation: rol 3s ease-in-out forwards; 
+    animation: rol 2.5s ease-in-out forwards; 
     height: 100%;
     border-radius: 10PX 0PX 0PX 10PX;
 }
@@ -60,9 +63,15 @@
     
         
     
+        50%{
+         
+            width: 80%;
+            
+           
+        }
+
         100%{
             transform:  translateX(-250PX);
-           
         }
     
         }
